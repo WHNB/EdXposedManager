@@ -19,8 +19,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.util.Objects;
 

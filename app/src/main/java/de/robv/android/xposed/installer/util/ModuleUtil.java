@@ -13,7 +13,7 @@ import android.os.FileUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.IOException;
 import java.io.PrintWriter;

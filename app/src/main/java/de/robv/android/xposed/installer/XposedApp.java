@@ -27,11 +27,11 @@ import android.preference.PreferenceManager;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
+import com.android.system.manager.BuildConfig;
+import com.android.system.manager.R;
+
 import androidx.appcompat.app.ActionBar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.R;
 
 import java.io.BufferedReader;
 import java.io.File;

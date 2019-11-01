@@ -27,8 +27,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.File;
 import java.util.ArrayList;

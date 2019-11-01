@@ -17,8 +17,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.File;
 import java.io.FileInputStream;

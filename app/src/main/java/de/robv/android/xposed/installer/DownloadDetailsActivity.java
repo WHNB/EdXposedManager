@@ -24,8 +24,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.util.List;
 

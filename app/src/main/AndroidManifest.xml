@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!--suppress AndroidDomInspection -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.meowcat.edxposed.manager">
+    package="com.android.system.manager">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -257,7 +257,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.meowcat.edxposed.manager.fileprovider"
+            android:authorities="com.android.system.manager.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

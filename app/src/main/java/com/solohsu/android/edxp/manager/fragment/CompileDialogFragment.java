@@ -18,8 +18,7 @@ import androidx.appcompat.app.AppCompatDialogFragment;
 
 import com.solohsu.android.edxp.manager.util.ToastUtils;
 import com.topjohnwu.superuser.Shell;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.lang.ref.WeakReference;
 

@@ -25,8 +25,7 @@ import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.material.snackbar.Snackbar;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -232,6 +231,7 @@ public class StatusInstallerFragment extends Fragment {
         if (Build.VERSION.SDK_INT >= 21) {
             if (installedXposedVersion != null) {
                 int installedXposedVersionInt = extractIntPart(installedXposedVersion);
+                Log.i(XposedApp.TAG, "installedXposedVersionInt=" + installedXposedVersionInt + " " + XposedApp.getXposedVersion());
                 if (installedXposedVersionInt == XposedApp.getXposedVersion()) {
                     txtInstallError.setText(sActivity.getString(R.string.installed_lollipop, installedXposedVersion));
                     txtInstallError.setTextColor(sActivity.getResources().getColor(R.color.darker_green));

@@ -5,8 +5,8 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.util.Log;
 
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.BuildConfig;
+import com.android.system.manager.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

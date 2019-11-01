@@ -44,8 +44,7 @@ import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.solohsu.android.edxp.manager.util.Utils;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

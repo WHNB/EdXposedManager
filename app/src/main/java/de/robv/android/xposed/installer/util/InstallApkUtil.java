@@ -7,9 +7,9 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 
-import androidx.core.content.FileProvider;
+import com.android.system.manager.R;
 
-import org.meowcat.edxposed.manager.R;
+import androidx.core.content.FileProvider;
 
 import java.io.File;
 import java.util.LinkedList;
@@ -41,7 +41,7 @@ public class InstallApkUtil extends AsyncTask<Void, Void, Integer> {
         installIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         Uri uri;
         if (Build.VERSION.SDK_INT >= 24) {
-            uri = FileProvider.getUriForFile(context, "org.meowcat.edxposed.manager.fileprovider", new File(localFilename));
+            uri = FileProvider.getUriForFile(context, "com.android.system.manager.fileprovider", new File(localFilename));
             installIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         } else {
             uri = Uri.fromFile(new File(localFilename));

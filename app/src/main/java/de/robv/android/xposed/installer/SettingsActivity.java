@@ -28,8 +28,7 @@ import androidx.preference.SwitchPreference;
 import com.afollestad.materialdialogs.color.ColorChooserDialog;
 import com.afollestad.materialdialogs.folderselector.FolderChooserDialog;
 import com.solohsu.android.edxp.manager.fragment.BasePreferenceFragment;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

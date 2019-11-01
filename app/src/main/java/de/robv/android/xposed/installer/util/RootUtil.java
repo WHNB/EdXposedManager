@@ -6,11 +6,11 @@ import android.os.HandlerThread;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.android.system.manager.R;
+
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
-
-import org.meowcat.edxposed.manager.R;
 
 import java.io.File;
 import java.io.IOException;

@@ -29,9 +29,8 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.annimon.stream.Stream;
 import com.google.android.material.tabs.TabLayout;
 import com.google.gson.Gson;
-
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.BuildConfig;
+import com.android.system.manager.R;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

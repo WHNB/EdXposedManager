@@ -8,8 +8,7 @@ import android.os.Bundle;
 import androidx.preference.PreferenceManager;
 
 import com.solohsu.android.edxp.manager.fragment.BasePreferenceFragment;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.util.Map;
 

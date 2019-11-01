@@ -18,8 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.solohsu.android.edxp.manager.util.Utils;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

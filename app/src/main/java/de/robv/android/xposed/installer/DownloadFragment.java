@@ -33,8 +33,7 @@ import androidx.fragment.app.Fragment;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.text.DateFormat;
 import java.util.Date;

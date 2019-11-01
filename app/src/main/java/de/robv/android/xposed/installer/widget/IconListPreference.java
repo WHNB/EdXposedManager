@@ -34,13 +34,13 @@ import android.widget.CheckedTextView;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 
+import com.android.system.manager.R;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceDialogFragmentCompat;
 import androidx.preference.PreferenceViewHolder;
-
-import org.meowcat.edxposed.manager.R;
 
 import java.util.ArrayList;
 import java.util.List;

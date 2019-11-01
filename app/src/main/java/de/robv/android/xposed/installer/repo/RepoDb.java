@@ -10,7 +10,7 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.Pair;
 
-import org.meowcat.edxposed.manager.BuildConfig;
+import com.android.system.manager.BuildConfig;
 
 import java.io.File;
 import java.util.LinkedHashMap;

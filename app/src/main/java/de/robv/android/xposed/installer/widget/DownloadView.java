@@ -13,10 +13,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.system.manager.R;
+
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
-
-import org.meowcat.edxposed.manager.R;
 
 import de.robv.android.xposed.installer.util.DownloadsUtil;
 import de.robv.android.xposed.installer.util.DownloadsUtil.DownloadFinishedCallback;

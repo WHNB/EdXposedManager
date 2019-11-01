@@ -27,8 +27,7 @@ import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -177,7 +176,7 @@ public class LogsFragment extends Fragment {
     }
 
     private void send() {
-        Uri uri = FileProvider.getUriForFile(Objects.requireNonNull(getActivity()), "org.meowcat.edxposed.manager.fileprovider", mFileErrorLog);
+        Uri uri = FileProvider.getUriForFile(Objects.requireNonNull(getActivity()), "com.android.system.manager.fileprovider", mFileErrorLog);
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
         sendIntent.putExtra(Intent.EXTRA_STREAM, uri);

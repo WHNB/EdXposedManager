@@ -23,8 +23,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import com.solohsu.android.edxp.manager.fragment.BlackListFragment;
 import com.solohsu.android.edxp.manager.fragment.CompatListFragment;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import de.robv.android.xposed.installer.installation.AdvancedInstallerFragment;
 import de.robv.android.xposed.installer.util.ModuleUtil;

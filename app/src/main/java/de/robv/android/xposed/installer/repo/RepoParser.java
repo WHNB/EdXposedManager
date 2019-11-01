@@ -16,8 +16,8 @@ import android.util.Pair;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+import com.android.system.manager.R;
 
-import org.meowcat.edxposed.manager.R;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;

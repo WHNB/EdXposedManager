@@ -20,8 +20,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.solohsu.android.edxp.manager.adapter.AppAdapter;
 import com.solohsu.android.edxp.manager.adapter.AppHelper;
 import com.solohsu.android.edxp.manager.adapter.BlackListAdapter;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.util.Objects;
 

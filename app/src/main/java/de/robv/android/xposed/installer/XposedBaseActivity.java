@@ -6,11 +6,11 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.WindowManager;
 
+import com.android.system.manager.R;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.meowcat.edxposed.manager.R;
 
 import java.util.Locale;
 

@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.fragment.app.Fragment;
+import com.android.system.manager.R;
 
-import org.meowcat.edxposed.manager.R;
+import androidx.fragment.app.Fragment;
 
 import de.robv.android.xposed.installer.repo.Module;
 import de.robv.android.xposed.installer.repo.RepoParser;

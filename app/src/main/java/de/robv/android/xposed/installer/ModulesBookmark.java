@@ -31,8 +31,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.snackbar.Snackbar;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

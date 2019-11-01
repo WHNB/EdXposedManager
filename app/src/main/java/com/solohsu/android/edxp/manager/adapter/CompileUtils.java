@@ -6,8 +6,7 @@ import android.content.pm.ApplicationInfo;
 import androidx.fragment.app.FragmentManager;
 
 import com.solohsu.android.edxp.manager.fragment.CompileDialogFragment;
-
-import org.meowcat.edxposed.manager.R;
+import com.android.system.manager.R;
 
 public class CompileUtils {
 

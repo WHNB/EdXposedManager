@@ -10,14 +10,14 @@ import android.os.FileUtils;
 import android.view.View;
 import android.widget.Toast;
 
+import com.android.system.manager.BuildConfig;
+import com.android.system.manager.R;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.fragment.app.FragmentManager;
-
-import org.meowcat.edxposed.manager.BuildConfig;
-import org.meowcat.edxposed.manager.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

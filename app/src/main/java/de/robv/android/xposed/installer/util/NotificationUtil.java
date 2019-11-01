@@ -11,10 +11,10 @@ import android.os.Build;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.android.system.manager.R;
+
 import androidx.annotation.StringRes;
 import androidx.core.app.NotificationCompat;
-
-import org.meowcat.edxposed.manager.R;
 
 import java.util.LinkedList;
 import java.util.List;
