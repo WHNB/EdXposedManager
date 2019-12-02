@@ -46,6 +46,9 @@ public final class ModuleUtil {
     private Map<String, InstalledModule> mInstalledModules;
     private boolean mIsReloading = false;
     private Toast mToast;
+    public static final String XP_META_DATA_MODULE = "alimodule";
+    public static final String XP_META_DATA_DESC = "alidescription";
+    public static final String XPD_META_DATA_VERSION = "aliminversion";
 
     private ModuleUtil() {
         mApp = XposedApp.getInstance();
@@ -93,7 +96,7 @@ public final class ModuleUtil {
                     continue;
 
                 InstalledModule installed = null;
-                if (app.metaData != null && app.metaData.containsKey("xposedmodule")) {
+                if (app.metaData != null && app.metaData.containsKey(XP_META_DATA_MODULE)) {
                     installed = new InstalledModule(pkg, false);
                     modules.put(pkg.packageName, installed);
                 } else if (isFramework(pkg.packageName)) {
@@ -134,7 +137,7 @@ public final class ModuleUtil {
         }
 
         ApplicationInfo app = pkg.applicationInfo;
-        if (app.enabled && app.metaData != null && app.metaData.containsKey("xposedmodule")) {
+        if (app.enabled && app.metaData != null && app.metaData.containsKey(XP_META_DATA_MODULE)) {
             InstalledModule module = new InstalledModule(pkg, false);
             RepoDb.insertInstalledModule(module);
             mInstalledModules.put(packageName, module);
@@ -317,7 +320,7 @@ public final class ModuleUtil {
                 if (version > 0 && XposedApp.getPreferences().getBoolean("skip_xposedminversion_check", false)) {
                     this.minVersion = version;
                 } else {
-                    Object minVersionRaw = app.metaData.get("xposedminversion");
+                    Object minVersionRaw = app.metaData.get(XPD_META_DATA_VERSION);
                     if (minVersionRaw instanceof Integer) {
                         this.minVersion = (Integer) minVersionRaw;
                     } else if (minVersionRaw instanceof String) {
@@ -348,7 +351,7 @@ public final class ModuleUtil {
 
         public String getDescription() {
             if (this.description == null) {
-                Object descriptionRaw = app.metaData.get("xposeddescription");
+                Object descriptionRaw = app.metaData.get(XP_META_DATA_DESC);
                 String descriptionTmp = null;
                 if (descriptionRaw instanceof String) {
                     descriptionTmp = ((String) descriptionRaw).trim();

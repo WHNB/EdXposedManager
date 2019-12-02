@@ -8,7 +8,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.meowcat.edxposed.manager"
+        applicationId "com.android.system.manager"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 451

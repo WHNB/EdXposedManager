@@ -32,6 +32,8 @@ import java.util.Locale;
 import de.robv.android.xposed.installer.XposedApp;
 import de.robv.android.xposed.installer.util.ThemeUtil;
 
+import static de.robv.android.xposed.installer.util.ModuleUtil.XP_META_DATA_MODULE;
+
 public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
 
     protected final Context context;
@@ -72,7 +74,7 @@ public class AppAdapter extends RecyclerView.Adapter<AppAdapter.ViewHolder> {
         if (!XposedApp.getPreferences().getBoolean("show_modules", true)) {
             List<ApplicationInfo> rmList = new ArrayList<>();
             for (ApplicationInfo info : fullList) {
-                if (info.metaData != null && info.metaData.containsKey("xposedmodule")) {
+                if (info.metaData != null && info.metaData.containsKey(XP_META_DATA_MODULE)) {
                     rmList.add(info);
                 }
             }
